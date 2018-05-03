@@ -1,0 +1,111 @@
+html { 
+  background: url(../images/backgroundimage.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: sans-serif;
+}
+body{
+	margin: auto;
+}
+.prof-box{
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+	padding: 40px;
+	background: #351b2185;
+	color: white;
+	margin-top: 80px;
+
+	text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0; 
+    overflow: hidden;
+    background-color: #3a232580;
+    width: 100%;
+    text-align: center;
+
+}
+li {
+    float: center;
+    display: inline-block;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+.pic{
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+h1{
+	color: white;
+	letter-spacing: 6px;
+	font-weight: 600;
+	font-size: 40px;
+
+}
+p{
+	font-weight: 200;
+	letter-spacing: 1px;
+}
+.fa {
+    padding: 10px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #eaeff1;
+    color: #101010;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #eaeff1;
+    color: #101010;
+}
+.fa-linkedin {
+  background: #eaeff1;
+    color: #101010;
+}
+.line{
+    width: 280px;
+    margin: 0 auto;
+    border-bottom: 1px solid white;
+    
+    }
